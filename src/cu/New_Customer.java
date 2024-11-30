@@ -9,7 +9,7 @@ public class New_Customer extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jLabel6 = new javax.swing.JLabel();
@@ -28,7 +28,6 @@ public class New_Customer extends javax.swing.JFrame {
         jTextField6 = new javax.swing.JTextField();
         jTextField7 = new javax.swing.JTextField();
         jTextField8 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -141,16 +140,6 @@ public class New_Customer extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 190, 100, -1));
 
-        jButton1.setFont(new java.awt.Font("Microsoft YaHei", 0, 14)); // NOI18N
-        jButton1.setText("Back");
-        jButton1.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 0, 0)));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 430, 110, 30));
-
         jButton2.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
         jButton2.setText("Submit");
         jButton2.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(0, 0, 0)));
@@ -218,8 +207,6 @@ public class New_Customer extends javax.swing.JFrame {
         );
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 430, 420));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\WIndows 11\\Documents\\Group 310.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
@@ -238,58 +225,51 @@ public class New_Customer extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 500));
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }                                           
 
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField5ActionPerformed
+    }                                           
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }                                           
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }                                           
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }                                           
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }                                           
 
-    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField7ActionPerformed
+    }                                           
 
-    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField8ActionPerformed
+    }                                           
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         String firstName = jTextField1.getText();  
         String lastName = jTextField2.getText();
         String age = jTextField3.getText();
-        String drivExperince = jTextField4.getText();
+        String driveExperience = jTextField4.getText();
         String plateNumber = jTextField5.getText();
         String carModel = jTextField6.getText();
         String carAge = jTextField7.getText();
         String accHistory = jTextField8.getText();
 //        int toIntInsuranceId = Integer.parseInt(insuranceId);
-        if(firstName.equals("") || 
-                lastName.equals("") || 
-                age.equals("") || 
-                drivExperince.equals("") || 
-                plateNumber.equals("") || 
-                carModel.equals("") || 
-                carAge.equals("") ||
-                accHistory.equals("")){
+        if(firstName.equals("") || lastName.equals("") || age.equals("") || driveExperience.equals("") || plateNumber.equals("") || carModel.equals("") || carAge.equals("") || accHistory.equals("")){
             JOptionPane.showMessageDialog(this,"Blank login credentials");
             jTextField1.setText("");
             jTextField2.setText("");
@@ -299,15 +279,31 @@ public class New_Customer extends javax.swing.JFrame {
             jTextField6.setText("");
             jTextField7.setText("");
             jTextField8.setText("");
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Old_New onFrame = new Old_New();
-        onFrame.setVisible(true);
-        onFrame.pack();
-        onFrame.setLocationRelativeTo(null);
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+        }
+        //printing the values
+        System.out.println(firstName);
+        System.out.println(lastName);
+        System.out.println(age);
+        System.out.println(driveExperience);
+        System.out.println(plateNumber);
+        System.out.println(carModel);
+        System.out.println(carAge);
+        System.out.println(accHistory);
+        
+        InsuranceChecker fullCov = new InsuranceChecker();
+        PartialCoverage partialCov = new PartialCoverage();
+        BasicCoverage basicCov = new BasicCoverage();
+        String FullCov = fullCov.checkInsurance(Integer.parseInt(carAge), Integer.parseInt(accHistory));
+        String PartialCov = partialCov.checkInsurance(Integer.parseInt(carAge), Integer.parseInt(accHistory));
+        String BasicCov = basicCov.checkInsurance(Integer.parseInt(carAge), Integer.parseInt(accHistory));
+        System.out.println(FullCov);
+        System.out.println(PartialCov);
+        System.out.println(BasicCov);
+        
+        PremiumCalculator premiumCalculator = new PremiumCalculator();
+        int premium = premiumCalculator.calculatePremium(20000, Integer.parseInt(accHistory), Integer.parseInt(driveExperience));
+        System.out.println("Premium amount is: " + premium);
+    }                                        
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -315,22 +311,7 @@ public class New_Customer extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(New_Customer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(New_Customer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(New_Customer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(New_Customer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
+       
         //</editor-fold>
 
         /* Create and display the form */
@@ -341,8 +322,7 @@ public class New_Customer extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -370,5 +350,6 @@ public class New_Customer extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField6;
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
-    // End of variables declaration//GEN-END:variables
-}
+    // End of variables declaration                   
+} 
+
